@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(233, 47%, 7%);
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  display: flex;
+  max-width: 900px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.text-section {
+  flex: 1;
+  padding: 2rem;
+}
+
+ h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.text-section p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  color: #fff;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats strong {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.stats small {
+  font-size: 0.75rem;
+  color: #a0aec0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.image-section {
+  flex: 1;
+  overflow: hidden;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: hue-rotate(270deg) saturate(1.5);
+}
+
